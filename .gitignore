@@ -1,0 +1,23 @@
+# 데이터 폴더
+data/
+
+# 데이터셋 파일
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
