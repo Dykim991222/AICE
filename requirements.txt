@@ -1,0 +1,65 @@
+# Data Science 2-Year Experience Level Requirements
+# Python 3.10 | conda-forge
+# Date: 2025-11-29
+
+# ============================================================
+# 필수 라이브러리 (Core)
+# ============================================================
+
+# Data Manipulation & Analysis
+pandas==2.3.3
+numpy==1.24.3
+
+# Visualization
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Machine Learning
+scikit-learn==1.7.2
+
+# Statistics
+scipy==1.15.2
+
+# ============================================================
+# 고급 기능 (Advanced - 프로젝트 필요시)
+# ============================================================
+
+# Deep Learning (선택사항)
+# tensorflow==2.15.0
+# keras==2.15.0
+
+# ============================================================
+# 개발/실험 도구
+# ============================================================
+
+# Jupyter Notebook
+jupyter==1.1.1
+jupyterlab==4.5.0
+
+# Python 패키지 관리
+pip==25.3
+
+# ============================================================
+# 설치 방법
+# ============================================================
+#
+# 1. 필수 패키지만 설치 (추천)
+#    pip install pandas numpy matplotlib seaborn scikit-learn scipy
+#
+# 2. Jupyter 포함 전체 설치
+#    pip install -r requirements.txt
+#
+# 3. conda 사용 (더 안정적)
+#    conda create -n ds_env python=3.10
+#    conda activate ds_env
+#    conda install -c conda-forge pandas numpy matplotlib seaborn scikit-learn scipy jupyter jupyterlab
+#
+# ============================================================
+# 주의사항
+# ============================================================
+#
+# - NumPy 1.24.3: TensorFlow 사용시 필수 (2.x는 호환 안됨)
+# - scikit-learn 1.7.2: 최신 안정 버전
+# - pandas 2.3.3: 2.0+ 이상 권장
+#
+# ============================================================
