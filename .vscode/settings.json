@@ -6,7 +6,7 @@
     },
     "editor.suggestOnTriggerCharacters": false,
     "editor.inlineSuggest.enabled": false,
-    "editor.wordBasedSuggestions": false,
+    "editor.wordBasedSuggestions": "off",
     "editor.parameterHints.enabled": false,
     "editor.suggest.showKeywords": false,
     "editor.suggest.showSnippets": false,
