@@ -1,76 +1,15 @@
 {
-    // === 실무 데이터사이언티스트용 자동완성 설정 ===
-    // 불필요한 팝업은 제거하되, 유용한 기능은 유지
-    
-    // 1. 기본 제안 설정 (유지: 변수, 함수명 등 필수)
     "editor.quickSuggestions": {
-        "other": true,          // 변수, 함수명 자동완성 (켜짐)
-        "comments": false,      // 주석 내 자동완성 (꺼짐)
-        "strings": false        // 문자열 내 자동완성 (꺼짐)
+        "other": false,
+        "comments": false,
+        "strings": false
     },
-    
-    // 2. 트리거 문자 제안 (끔 - 폴더 열때 . 등으로 팝업 방지)
     "editor.suggestOnTriggerCharacters": false,
-    
-    // 3. 인라인 제안 (끔 - 오른쪽에 회색 제안 제거)
     "editor.inlineSuggest.enabled": false,
-    
-    // 4. 단어 기반 제안 (끔 - 이미 입력된 단어들로부터 제안 제거)
     "editor.wordBasedSuggestions": "off",
-    
-    // 5. 파라미터 힌트 (켬 - 함수 파라미터는 실무에서 유용)
-    "editor.parameterHints.enabled": true,
-    "editor.parameterHints.cycle": true,
-    
-    // 6. 세부 제안 필터링 (불필요한 것들만 끔)
-    "editor.suggest.showKeywords": false,      // 예약어 제안 끔
-    "editor.suggest.showSnippets": false,      // 스니펫 끔
-    "editor.suggest.showWords": false,         // 다른 파일 단어 끔
-    "editor.suggest.showUnits": false,
-    "editor.suggest.showIssues": false,
-    
-    // 7. Python 특화 설정
-    "python.analysis.completeFunctionParens": true,  // 함수 호출시 괄호 자동 추가
-    "[python]": {
-        "editor.quickSuggestions": {
-            "other": true,
-            "comments": false,
-            "strings": false
-        },
-        "editor.formatOnPaste": false,
-        "editor.formatOnSave": false
-    },
-    
-    // 8. 괄호/따옴표 설정 (괄호는 자동 완성하되, 따옴표는 끔)
-    "editor.autoClosingBrackets": "always",
-    "editor.autoClosingQuotes": "never",
-    "editor.autoClosingOvertype": "always",
-    
-    // 9. 제안 선택 설정 (엔터로 선택 불가 - 오타 방지)
-    "editor.acceptSuggestionOnCommitCharacter": false,
-    "editor.acceptSuggestionOnEnter": "off",
-    
-    // 10. Jupyter Notebook 최적화
-    "[python][markdown]": {
-        "editor.defaultFormatter": "ms-python.python"
-    },
-    
-    // 11. 제안 항목 표시 설정
-    "editor.suggest.showMethods": true,         // 메서드는 표시
-    "editor.suggest.showClasses": true,         // 클래스는 표시
-    "editor.suggest.showFunctions": true,       // 함수는 표시
-    "editor.suggest.showVariables": true,       // 변수는 표시
-    "editor.suggest.showStructs": false,
-    "editor.suggest.showEnums": false,
-    "editor.suggest.showEnumMembers": false,
-    "editor.suggest.showModules": true,         // 모듈/라이브러리는 표시
-    "editor.suggest.showConstructors": true,
-    "editor.suggest.showDeprecated": false,
-    
-    // 12. 추가 편의 설정
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true,
-    "editor.trimAutoWhitespace": true,
-    "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true
+    "editor.parameterHints.enabled": false,
+    "editor.suggest.showKeywords": false,
+    "editor.suggest.showSnippets": false,
+    "editor.suggest.showWords": false,
+    "python.analysis.completeFunctionParens": false
 }
