@@ -1,0 +1,4 @@
+# Optional packages for the deep-learning sections in the test notebooks.
+# Python 3.10 is recommended.
+tensorflow==2.15.0
+torch>=2.2.0
